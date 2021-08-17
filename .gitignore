@@ -12,7 +12,7 @@
 #*.exe
 
 # Metadata
-*.aliases
+#*.aliases
 *.lvlps
 .cache/
 
