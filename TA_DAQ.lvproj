@@ -14,6 +14,7 @@
 			<Item Name="cameras" Type="Folder">
 				<Item Name="children" Type="Folder">
 					<Item Name="dummyCam.lvclass" Type="LVClass" URL="../src/classes/cameras/dummyCam/dummyCam.lvclass"/>
+					<Item Name="Glaz-I.lvclass" Type="LVClass" URL="../src/classes/cameras/Glaz_I/Glaz-I.lvclass"/>
 					<Item Name="Stresing_dual_cam.lvclass" Type="LVClass" URL="../src/classes/cameras/Stresing_dual_cam/Stresing_dual_cam.lvclass"/>
 				</Item>
 				<Item Name="parent" Type="Folder">
