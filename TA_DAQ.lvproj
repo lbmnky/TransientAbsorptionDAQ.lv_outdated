@@ -37,8 +37,13 @@
 			<Item Name="command.ctl" Type="VI" URL="../src/ctls/command.ctl"/>
 			<Item Name="message.ctl" Type="VI" URL="../src/message.ctl"/>
 		</Item>
-		<Item Name="current_t0.vi" Type="VI" URL="../src/globals/current_t0.vi"/>
-		<Item Name="current_timestep.vi" Type="VI" URL="../src/globals/current_timestep.vi"/>
+		<Item Name="globals" Type="Folder">
+			<Item Name="current_t0.vi" Type="VI" URL="../src/globals/current_t0.vi"/>
+			<Item Name="current_timestep.vi" Type="VI" URL="../src/globals/current_timestep.vi"/>
+		</Item>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
+		</Item>
 		<Item Name="data_command.ctl" Type="VI" URL="../src/ctls/data_command.ctl"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -124,7 +129,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">53</Property>
+				<Property Name="Bld_version.build" Type="Int">55</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ_sample.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/TA_DAQ_sample.exe</Property>
