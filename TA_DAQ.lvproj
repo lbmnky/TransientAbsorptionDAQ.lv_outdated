@@ -40,8 +40,10 @@
 		<Item Name="globals" Type="Folder">
 			<Item Name="current_t0.vi" Type="VI" URL="../src/globals/current_t0.vi"/>
 			<Item Name="current_timestep.vi" Type="VI" URL="../src/globals/current_timestep.vi"/>
+			<Item Name="dummyTriggerVIref.vi" Type="VI" URL="../src/globals/dummyTriggerVIref.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="dummyTrigger.vi" Type="VI" URL="../src/subVIs/dummyTrigger.vi"/>
 			<Item Name="num2lett.vi" Type="VI" URL="../src/subVIs/num2lett.vi"/>
 			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
 		</Item>
