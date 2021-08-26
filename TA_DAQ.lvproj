@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="18008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -47,6 +47,7 @@
 			<Item Name="num2lett.vi" Type="VI" URL="../src/subVIs/num2lett.vi"/>
 			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
 		</Item>
+		<Item Name="camType.ctl" Type="VI" URL="../src/classes/cameras/_cameraBase/camType.ctl"/>
 		<Item Name="data_command.ctl" Type="VI" URL="../src/ctls/data_command.ctl"/>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
 		<Item Name="load_hardware_ini.vi" Type="VI" URL="../src/subVIs/load_hardware_ini.vi"/>
@@ -139,7 +140,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">72</Property>
+				<Property Name="Bld_version.build" Type="Int">74</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
