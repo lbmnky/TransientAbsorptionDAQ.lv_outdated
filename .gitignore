@@ -16,6 +16,9 @@
 *.lvlps
 .cache/
 
+# Backups
+*.bak
+
 # Data
 data/
 
