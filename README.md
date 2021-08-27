@@ -6,6 +6,6 @@ Flexible data acquisition Labview software for transient absorption spectroscopy
 
 blabla
 
-![bd](snippets/FrontPanel.png)
+![bd](snippets/front_panel_overview.png)
 
 ![bd](snippets/block_diagram_overview.png)
