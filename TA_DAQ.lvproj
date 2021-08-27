@@ -50,8 +50,11 @@
 		<Item Name="camType.ctl" Type="VI" URL="../src/classes/cameras/_cameraBase/camType.ctl"/>
 		<Item Name="data_command.ctl" Type="VI" URL="../src/ctls/data_command.ctl"/>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
+		<Item Name="hor_bar_indicator.ctl" Type="VI" URL="../src/UI/hor_bar_indicator.ctl"/>
 		<Item Name="load_hardware_ini.vi" Type="VI" URL="../src/subVIs/load_hardware_ini.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
+		<Item Name="num_input.ctl" Type="VI" URL="../src/UI/num_input.ctl"/>
+		<Item Name="num_output.ctl" Type="VI" URL="../src/UI/num_output.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -140,7 +143,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">81</Property>
+				<Property Name="Bld_version.build" Type="Int">83</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
