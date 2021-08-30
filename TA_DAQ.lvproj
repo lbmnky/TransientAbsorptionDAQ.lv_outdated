@@ -35,12 +35,18 @@
 		<Item Name="ctls" Type="Folder">
 			<Item Name="_stageType.ctl" Type="VI" URL="../src/classes/stages/_delayStageBase/_stageType.ctl"/>
 			<Item Name="camType.ctl" Type="VI" URL="../src/classes/cameras/_cameraBase/camType.ctl"/>
+			<Item Name="checkbox.ctl" Type="VI" URL="../src/UI/checkbox.ctl"/>
 			<Item Name="command.ctl" Type="VI" URL="../src/ctls/command.ctl"/>
 			<Item Name="data_command.ctl" Type="VI" URL="../src/ctls/data_command.ctl"/>
+			<Item Name="enum_input.ctl" Type="VI" URL="../src/UI/enum_input.ctl"/>
+			<Item Name="enum_output.ctl" Type="VI" URL="../src/UI/enum_output.ctl"/>
+			<Item Name="filepath_input.ctl" Type="VI" URL="../src/UI/filepath_input.ctl"/>
 			<Item Name="hor_bar_indicator.ctl" Type="VI" URL="../src/UI/hor_bar_indicator.ctl"/>
 			<Item Name="message.ctl" Type="VI" URL="../src/message.ctl"/>
 			<Item Name="num_input.ctl" Type="VI" URL="../src/UI/num_input.ctl"/>
 			<Item Name="num_output.ctl" Type="VI" URL="../src/UI/num_output.ctl"/>
+			<Item Name="string_input.ctl" Type="VI" URL="../src/UI/string_input.ctl"/>
+			<Item Name="string_output.ctl" Type="VI" URL="../src/UI/string_output.ctl"/>
 		</Item>
 		<Item Name="globals" Type="Folder">
 			<Item Name="current_t0.vi" Type="VI" URL="../src/globals/current_t0.vi"/>
@@ -48,20 +54,13 @@
 			<Item Name="dummyTriggerVIref.vi" Type="VI" URL="../src/globals/dummyTriggerVIref.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
-			<Item Name="dummyTrigger.vi" Type="VI" URL="../src/subVIs/dummyTrigger.vi"/>
 			<Item Name="fs_mm_converter.vi" Type="VI" URL="../src/subVIs/fs_mm_converter.vi"/>
+			<Item Name="load_hardware_ini.vi" Type="VI" URL="../src/subVIs/load_hardware_ini.vi"/>
 			<Item Name="num2lett.vi" Type="VI" URL="../src/subVIs/num2lett.vi"/>
 			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
 		</Item>
-		<Item Name="checkbox.ctl" Type="VI" URL="../src/UI/checkbox.ctl"/>
-		<Item Name="enum_input.ctl" Type="VI" URL="../src/UI/enum_input.ctl"/>
-		<Item Name="enum_output.ctl" Type="VI" URL="../src/UI/enum_output.ctl"/>
-		<Item Name="filepath_input.ctl" Type="VI" URL="../src/UI/filepath_input.ctl"/>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
-		<Item Name="load_hardware_ini.vi" Type="VI" URL="../src/subVIs/load_hardware_ini.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
-		<Item Name="string_input.ctl" Type="VI" URL="../src/UI/string_input.ctl"/>
-		<Item Name="string_output.ctl" Type="VI" URL="../src/UI/string_output.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -149,7 +148,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">85</Property>
+				<Property Name="Bld_version.build" Type="Int">95</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -170,7 +169,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/load_hardware_ini.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/subVIs/load_hardware_ini.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
