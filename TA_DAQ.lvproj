@@ -61,6 +61,7 @@
 		</Item>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
+		<Item Name="ta_calc_diff.vi" Type="VI" URL="../src/subVIs/ta_calc_diff.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -129,6 +130,7 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="check_signal_chopper_state.vi" Type="VI" URL="../src/subVIs/check_signal_chopper_state.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -148,7 +150,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">105</Property>
+				<Property Name="Bld_version.build" Type="Int">106</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
