@@ -55,13 +55,15 @@
 			<Item Name="dummyTriggerVIref.vi" Type="VI" URL="../src/globals/dummyTriggerVIref.vi"/>
 		</Item>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="error_anal.vi" Type="VI" URL="../src/subVIs/error_anal.vi"/>
 			<Item Name="fs_mm_converter.vi" Type="VI" URL="../src/subVIs/fs_mm_converter.vi"/>
 			<Item Name="load_hardware_ini.vi" Type="VI" URL="../src/subVIs/load_hardware_ini.vi"/>
+			<Item Name="load_panel.vi" Type="VI" URL="../src/classes/stages/_delayStageBase/load_panel.vi"/>
 			<Item Name="num2lett.vi" Type="VI" URL="../src/subVIs/num2lett.vi"/>
 			<Item Name="ta_calc_diff.vi" Type="VI" URL="../src/subVIs/ta_calc_diff.vi"/>
 			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
+			<Item Name="view_full_data.vi" Type="VI" URL="../src/subVIs/view_full_data.vi"/>
 		</Item>
-		<Item Name="error_anal.vi" Type="VI" URL="../src/subVIs/error_anal.vi"/>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -172,7 +174,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">109</Property>
+				<Property Name="Bld_version.build" Type="Int">110</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
