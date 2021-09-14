@@ -14,7 +14,7 @@
 			<Item Name="cameras" Type="Folder">
 				<Item Name="children" Type="Folder">
 					<Item Name="dummyCam.lvclass" Type="LVClass" URL="../src/classes/cameras/dummyCam/dummyCam.lvclass"/>
-					<Item Name="Glaz-I.lvclass" Type="LVClass" URL="../src/classes/cameras/Glaz_I/Glaz-I.lvclass"/>
+					<Item Name="Glaz.lvclass" Type="LVClass" URL="../src/classes/cameras/Glaz_I/Glaz.lvclass"/>
 					<Item Name="Stresing_dual_cam.lvclass" Type="LVClass" URL="../src/classes/cameras/Stresing_dual_cam/Stresing_dual_cam.lvclass"/>
 				</Item>
 				<Item Name="parent" Type="Folder">
@@ -64,6 +64,7 @@
 			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
 			<Item Name="view_full_data.vi" Type="VI" URL="../src/subVIs/view_full_data.vi"/>
 		</Item>
+		<Item Name="GlazLib.lvlib" Type="Library" URL="/&lt;userlib&gt;/GlazLabView/GlazLib.lvlib"/>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -154,6 +155,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
+			<Item Name="set_parameters.vi" Type="VI" URL="../src/classes/cameras/Glaz_I/set_parameters.vi"/>
 			<Item Name="Stream-c(t&apos;data_command.ctl&apos;,a[.](dbl),a[.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(t&apos;data_command.ctl&apos;,a[.](dbl),a[.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
@@ -174,7 +176,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">110</Property>
+				<Property Name="Bld_version.build" Type="Int">117</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -185,7 +187,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E19638B9-2544-47CF-81E1-75019D280DEC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26FAFF58-E0BB-41ED-88EF-78779087A9F3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -201,6 +203,11 @@
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/hardware.ini</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/GlazLib.lvlib</Property>
+				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/classes/delay_stages/children/imaginaryStage.lvclass</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
@@ -239,7 +246,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/subVIs</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_companyName" Type="Str">Technische Universität München</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TA_DAQ</Property>
 				<Property Name="TgtF_internalName" Type="Str">TA_DAQ</Property>
