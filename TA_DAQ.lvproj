@@ -155,8 +155,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
-			<Item Name="set_parameters.vi" Type="VI" URL="../src/classes/cameras/Glaz_I/set_parameters.vi"/>
-			<Item Name="Stream-c(t&apos;data_command.ctl&apos;,a[.](dbl),a[.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(t&apos;data_command.ctl&apos;,a[.](dbl),a[.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib"/>
+			<Item Name="Stream-c(t&apos;data_command.ctl&apos;,a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(t&apos;data_command.ctl&apos;,a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -176,7 +175,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">117</Property>
+				<Property Name="Bld_version.build" Type="Int">118</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -187,7 +186,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{26FAFF58-E0BB-41ED-88EF-78779087A9F3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F07AD5FF-1160-43A1-85E5-00B98B79413F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
