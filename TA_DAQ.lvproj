@@ -14,7 +14,7 @@
 			<Item Name="cameras" Type="Folder">
 				<Item Name="children" Type="Folder">
 					<Item Name="dummyCam.lvclass" Type="LVClass" URL="../src/classes/cameras/dummyCam/dummyCam.lvclass"/>
-					<Item Name="Glaz.lvclass" Type="LVClass" URL="../src/classes/cameras/Glaz_I/Glaz.lvclass"/>
+					<Item Name="Glaz.lvclass" Type="LVClass" URL="../src/classes/cameras/Glaz/Glaz.lvclass"/>
 					<Item Name="Stresing_dual_cam.lvclass" Type="LVClass" URL="../src/classes/cameras/Stresing_dual_cam/Stresing_dual_cam.lvclass"/>
 				</Item>
 				<Item Name="parent" Type="Folder">
@@ -64,10 +64,29 @@
 			<Item Name="time_scan_init.vi" Type="VI" URL="../src/subVIs/time_scan_init.vi"/>
 			<Item Name="view_full_data.vi" Type="VI" URL="../src/subVIs/view_full_data.vi"/>
 		</Item>
-		<Item Name="GlazLib.lvlib" Type="Library" URL="/&lt;userlib&gt;/GlazLabView/GlazLib.lvlib"/>
 		<Item Name="hardware.ini" Type="Document" URL="../src/hardware.ini"/>
 		<Item Name="main.vi" Type="VI" URL="../src/main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="capture Background.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/capture Background.vi"/>
+				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/close.vi"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/subvi/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="get All Scans Sizes.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/get All Scans Sizes.vi"/>
+				<Item Name="get Last Error Message.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/get Last Error Message.vi"/>
+				<Item Name="get PD Values.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/get PD Values.vi"/>
+				<Item Name="get Scan.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/get Scan.vi"/>
+				<Item Name="get Version.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/get Version.vi"/>
+				<Item Name="GlazLib.dll" Type="Document" URL="/&lt;userlib&gt;/GlazLabView/GlazLib.dll"/>
+				<Item Name="initialise.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/initialise.vi"/>
+				<Item Name="run Measurement.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/run Measurement.vi"/>
+				<Item Name="set Hardware Averaging.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Hardware Averaging.vi"/>
+				<Item Name="set Integration Mode.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Integration Mode.vi"/>
+				<Item Name="set Integration Time.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Integration Time.vi"/>
+				<Item Name="set Internal Trigger Frequency.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Internal Trigger Frequency.vi"/>
+				<Item Name="set Scan Count.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Scan Count.vi"/>
+				<Item Name="set Trigger Delay.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Trigger Delay.vi"/>
+				<Item Name="set Trigger Mode.vi" Type="VI" URL="/&lt;userlib&gt;/GlazLabView/VIs/set Trigger Mode.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -175,7 +194,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4613C442-4DA3-406D-8DA4-303611D32EF0}</Property>
-				<Property Name="Bld_version.build" Type="Int">118</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../builds/TA_DAQ_TA_DAQ_log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_version.build" Type="Int">135</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -186,7 +207,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F07AD5FF-1160-43A1-85E5-00B98B79413F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{58D3FBD5-9506-4F3C-9B79-705E7F4FF6FE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -202,11 +223,6 @@
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/hardware.ini</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/GlazLib.lvlib</Property>
-				<Property Name="Source[12].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/classes/delay_stages/children/imaginaryStage.lvclass</Property>
 				<Property Name="Source[2].type" Type="Str">Library</Property>
@@ -216,10 +232,8 @@
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/classes/delay_stages/parent/_delayStageBase.lvclass</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/classes</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
@@ -245,7 +259,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/subVIs</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">12</Property>
 				<Property Name="TgtF_companyName" Type="Str">Technische Universität München</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TA_DAQ</Property>
 				<Property Name="TgtF_internalName" Type="Str">TA_DAQ</Property>

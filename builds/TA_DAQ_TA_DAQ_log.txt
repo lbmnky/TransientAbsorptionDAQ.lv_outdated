@@ -1,0 +1,427 @@
+26.09.2021 00:39:27
+[General]
+Project: P:\Code\labview\github\TransientAbsorption_DAQ\TA_DAQ.lvproj
+Target: My Computer
+Build Specification: TA_DAQ
+OS: Windows x64 10.0
+
+[Open Top Level VIs]
+P:\Code\labview\github\TransientAbsorption_DAQ\src\main.vi	23.09.2021 08:30:38
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\load_hardware_ini.vi	23.08.2021 12:01:11
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\home.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\init.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\set_position.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\_loadStage.vi	08.09.2021 14:14:18
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\_unloadStage.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\get_position.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\home.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\init.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\load_stepfile.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read max pos.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\set_position.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\globals\current_t0.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\globals\current_timestep.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\globals\dummyTriggerVIref.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\error_anal.vi	08.09.2021 14:14:18
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\fs_mm_converter.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\load_panel.vi	08.09.2021 11:36:15
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\num2lett.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\ta_calc_diff.vi	22.09.2021 13:57:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\time_scan_init.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\view_full_data.vi	22.09.2021 15:37:37
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\subVIs\init_parameters.vi	27.08.2021 15:37:35
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read last position.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read resource name.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read status.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read stepfile.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read timesteps.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write instrument info.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write last position.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write max pos.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write resource name.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write status.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write stepfile.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write timesteps.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\get_single_acq.vi	22.09.2021 13:57:57
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\init.vi	01.09.2021 16:13:58
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\stop.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\Write background.vi	01.09.2021 15:15:35
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\get_single_acq.vi	23.09.2021 08:31:15
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\init.vi	23.09.2021 08:14:55
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\stop.vi	23.09.2021 08:31:15
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\Write background.vi	14.09.2021 15:28:01
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\expose.vi	26.08.2021 17:43:11
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\get.vi	22.09.2021 13:00:40
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\get_single_acq.vi	22.09.2021 13:36:36
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\init.vi	01.09.2021 16:15:19
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\stop.vi	26.08.2021 17:46:43
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\Write background.vi	01.09.2021 11:18:44
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\_loadCamera.vi	22.09.2021 17:05:14
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\get_single_acq.vi	22.09.2021 13:13:13
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\init.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\stop.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP300\init.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\_unloadStage.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\get_position.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\init.vi	27.08.2021 11:41:58
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\set_position.vi	26.08.2021 15:33:02
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\subVIs\dummyTrigger.vi	30.08.2021 15:48:46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\subVIs\init_parameters.vi	27.08.2021 15:37:38
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\set_parameters.vi	23.09.2021 08:31:15
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read background.vi	01.09.2021 11:35:24
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read resource name.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read status.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read trig1.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read trig2.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write background.vi	01.09.2021 11:22:04
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write resource name.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write status.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write trig1.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write trig2.vi	01.09.2021 11:19:50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP300\subVIs\init_parameters.vi	27.08.2021 11:38:35
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\subVIs\init_parameters.vi	27.08.2021 11:41:21
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\subVIs\Stage_readTCPIP.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\subVIs\Stage_sendProtocol.vi	16.08.2021 16:10:14
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\Read TCPIP address.vi	26.08.2021 15:33:03
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\Write TCPIP address.vi	26.08.2021 15:33:03
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\aboutS0.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\BothSlopes_thread.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\CalcTrms.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\contFFLoop.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\Exit.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\FFStop.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\FreeMemInfo.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\Globals.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\HiSlope_thread.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\InitBrd_multicam.vi	26.08.2021 17:46:25
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\InitDrv_thread.vi	26.08.2021 17:58:23
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\IsFFT.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\IsPDA.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\LowSlope_thread.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\ReadFFLoop_thread.vi	26.08.2021 17:40:21
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\ReturnFrame.vi	01.09.2021 16:33:15
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\SendFLCam.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\Set section voltage.vi	26.08.2021 17:40:21
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\SetTOREG_thread.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\SetupDMA_thread.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Allocate memory.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\CamExit.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\InitCam.vi	01.09.2021 10:30:00
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Block v2.vi	26.08.2021 17:40:21
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Block.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Frame v2.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Frame.vi	26.08.2021 17:40:20
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Set Globals.vi	01.09.2021 15:43:06
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Start measurement.vi	26.08.2021 17:40:20
+
+
+[Source Files]
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\imaginaryStage.lvclass	06.09.2021 15:46:09	1.0.0.6
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\_delayStageBase.lvclass	06.09.2021 15:46:34	1.0.0.16
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\dummyCam.lvclass	22.09.2021 14:27:13	1.0.0.1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\Glaz.lvclass	23.09.2021 08:31:15	1.0.0.0
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\Stresing_dual_cam.lvclass	22.09.2021 14:27:13	1.0.0.3
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\_cameraBase.lvclass	22.09.2021 14:27:13	1.0.0.4
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP300\ESP300.lvclass	26.08.2021 15:33:03	1.0.0.0
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\ESP301_via_TCPIP.lvclass	26.08.2021 15:33:03	1.0.0.3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\NI_Data Type.lvlib	17.03.2019 13:19:56	1.0.0.0
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32).lvlib	22.09.2021 13:02:31	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\PipeLogic.lvclass	17.03.2019 11:53:40	1.0.0.2
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\_ChannelSupport.lvlib	17.03.2019 11:53:36	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALBase.lvlib	17.03.2019 10:31:00	14.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\traverseref.llb\VI Scripting - Traverse.lvlib	17.03.2019 18:51:14	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\NI_LVConfig.lvlib	17.03.2019 13:22:06	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\NI_FileType.lvlib	17.03.2019 20:21:52	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\LVLibp\NI_PackedLibraryUtility.lvlib	17.03.2019 13:21:26	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALPro.lvlib	17.03.2019 11:56:34	14.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\gmath\NI_Gmath.lvlib	17.03.2019 11:56:34	14.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Platform\TimedLoop\XDataNode\XDNodeRunTimeDep.lvlib	17.03.2019 12:16:52	1.0.0.0
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\StreamData.lvclass	22.09.2021 13:02:31	1.0.0.1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\hardware.ini	27.08.2021 15:24:28
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\init.gsc	14.09.2021 11:38:55
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\no_pre_processing.gsc	22.09.2021 14:28:47
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\voltages.ini	17.07.2020 11:28:51
+C:\Program Files\National Instruments\LabVIEW 2019\user.lib\GlazLabView\GlazLib.dll	16.07.2020 11:55:52
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Platform\TimedLoop\XDataNode\wakeup.ctl	17.03.2019 12:16:52	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Platform\TimedLoop\XDataNode\nitl_modes.ctl	17.03.2019 12:16:52	24
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Platform\TimedLoop\XDataNode\timing_clust.ctl	17.03.2019 12:16:52	53
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\ReturnFrame.vi	01.09.2021 16:33:15	247
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\Globals.vi	26.08.2021 17:40:20	41
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Mean (DBL).vi	17.03.2019 11:03:50	42
+C:\Program Files\National Instruments\LabVIEW 2019\user.lib\GlazLabView\VIs\get Last Error Message.vi	23.09.2021 08:31:16	17
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	17.03.2019 18:01:11	99
+C:\Program Files\National Instruments\LabVIEW 2019\user.lib\GlazLabView\subvi\Error Converter (ErrCode or Status).vi	23.09.2021 08:31:16	44
+C:\Program Files\National Instruments\LabVIEW 2019\user.lib\GlazLabView\VIs\close.vi	23.09.2021 08:31:16	6
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\gmath\SpecialFunctions.llb\Error Function.vi	17.03.2019 11:03:58	20
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\1siggen.llb\Poisson Noise.vi	17.03.2019 11:10:12	107
+P:\Code\labview\github\TransientAbsorption_DAQ\src\globals\current_t0.vi	26.08.2021 15:33:03	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\globals\current_timestep.vi	26.08.2021 15:33:03	3
+P:\Code\labview\github\TransientAbsorption_DAQ\src\globals\dummyTriggerVIref.vi	26.08.2021 15:33:03	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\subVIs\Stage_readTCPIP.vi	26.08.2021 15:33:03	10
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\subVIs\Stage_sendProtocol.vi	16.08.2021 16:10:14	8
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\fs_mm_converter.vi	26.08.2021 15:33:02	3
+P:\Code\labview\github\TransientAbsorption_DAQ\src\ctls\command.ctl	01.09.2021 16:12:07	18
+P:\Code\labview\github\TransientAbsorption_DAQ\src\message.ctl	01.09.2021 16:15:52	6
+P:\Code\labview\github\TransientAbsorption_DAQ\src\ctls\data_command.ctl	06.09.2021 10:36:54	6
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\)Channel.ctl	22.09.2021 13:02:31	12
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\SwapIntoArray.vi	22.09.2021 13:02:31	31
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\ChannelOp.ctl	22.09.2021 13:02:32	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\traverseref.llb\TRef TravTarget.ctl	17.03.2019 17:53:21	6
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\traverseref.llb\TRef Traverse.vi	17.03.2019 17:53:15	47
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\traverseref.llb\Traverse for GObjects.vi	17.03.2019 18:01:47	56
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Remove Quotes.vi	17.03.2019 10:52:56	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Section.ctl	17.03.2019 10:52:58	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Data.ctl	17.03.2019 10:52:56	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Queue.ctl	17.03.2019 10:52:56	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\New Config to Queue.vi	17.03.2019 10:52:56	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Data RefNum.ctl	17.03.2019 10:52:58	27
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\8.6CompatibleGlobalVar.vi	17.03.2019 10:52:58	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Typecast Queue to Refnum.vi	17.03.2019 10:52:56	21
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get Section.vi	17.03.2019 10:52:56	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Unescape String.vi	17.03.2019 10:52:58	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	17.03.2019 17:52:56	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\LVFileType.ctl	17.03.2019 17:52:57	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\Get File Type.vi	17.03.2019 17:52:56	102
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\LVLibp\Get Exported File List.vi	17.03.2019 11:01:48	30
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	17.03.2019 18:01:33	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Typecast Refnum to Queue.vi	17.03.2019 10:52:56	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get File Path.vi	17.03.2019 10:52:56	62
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config to String.vi	17.03.2019 10:52:56	140
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Save Config File.vi	17.03.2019 10:52:56	56
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Clear Errors.vi	17.03.2019 18:01:12	24
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Close Config Data.vi	17.03.2019 10:52:56	87
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Instantiate.vi	22.09.2021 13:02:32	25
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\Status.vi	17.03.2019 11:53:40	25
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\Init.vi	17.03.2019 11:53:40	21
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Initialize.vi	22.09.2021 13:02:31	22
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\IncrementOpCount.vi	22.09.2021 13:02:31	5
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\SetOccurrence.vi	17.03.2019 11:53:36	47
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\NotAnOccurrence.vi	17.03.2019 11:53:36	11
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\WaitIfNeeded.vi	17.03.2019 11:53:36	48
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\Enqueue.vi	17.03.2019 11:53:40	50
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\SetSize.vi	17.03.2019 11:53:40	23
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\GrowArray.vi	22.09.2021 13:02:31	26
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\SetSentinel.vi	17.03.2019 11:53:40	24
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\Dequeue.vi	17.03.2019 11:53:40	27
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Dequeue.vi	22.09.2021 13:02:31	31
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\SetSize.vi	22.09.2021 13:02:31	29
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Enqueue.vi	22.09.2021 13:02:31	39
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\)Channel.vi	22.09.2021 13:02:32	204
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\EndpointRead.vi	22.09.2021 13:02:32	174
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Read With Abort.vi	22.09.2021 13:02:31	102
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Read.vi	22.09.2021 13:02:31	105
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Endpoint.vi	22.09.2021 13:02:32	173
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Write With Abort.vi	22.09.2021 13:02:31	87
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\Write.vi	22.09.2021 13:02:31	90
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\view_full_data.vi	22.09.2021 15:37:37	21
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\check_signal_chopper_state.vi	22.09.2021 13:40:03	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Histogram.vi	17.03.2019 11:03:50	53
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express shared\transition.llb\Waveform Array To Dynamic.vi	17.03.2019 10:30:58	1
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express shared\StatisticsType.ctl	17.03.2019 12:09:02	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\5stat.llb\RMS (DBL).vi	17.03.2019 12:08:38	36
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Median.vi	17.03.2019 12:08:54	36
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\5stat.llb\Moment about Mean.vi	17.03.2019 12:09:02	41
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Waveform\WDTOps.llb\Waveform Min Max.vi	17.03.2019 19:08:37	64
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express shared\transition.llb\Move t0 to the end.vi	17.03.2019 12:08:38	4
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express shared\ex_Modify Signal Name.vi	17.03.2019 12:08:38	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Std Deviation and Variance.vi	17.03.2019 12:09:02	82
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Multimode.vi	17.03.2019 11:03:52	42
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Unimode.vi	17.03.2019 11:03:52	43
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express shared\ex_CorrectErrorChain.vi	17.03.2019 10:30:58	13
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express shared\transition.llb\Dynamic To Waveform Array.vi	17.03.2019 10:30:58	1
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express analysis\StatisticsBlock.llb\subStatistics.vi	17.03.2019 19:09:02	161
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\error_anal.vi	08.09.2021 14:14:18	29
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\ta_calc_diff.vi	22.09.2021 13:57:03	5
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Write Spreadsheet String.vi	17.03.2019 18:53:12	13
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Write Delimited Spreadsheet (DBL).vi	17.03.2019 18:02:00	59
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\num2lett.vi	26.08.2021 15:33:03	4
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\libraryn.llb\List Directory and LLBs.vi	17.03.2019 17:53:19	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\libraryn.llb\Recursive File List.vi	17.03.2019 18:01:33	72
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Type Definitions\Type Definition Info.ctl	17.03.2019 12:10:28	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Type Definitions\Data Type.ctl	17.03.2019 12:10:28	25
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Private\MDTFlavorToTypeEnum.vi	17.03.2019 12:10:26	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Private\GetRefnumInfoInternal.vi	17.03.2019 12:10:26	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\Data Type\Get Type Information.vi	17.03.2019 11:02:02	65
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\time_scan_init.vi	26.08.2021 15:33:03	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\DialogType.ctl	17.03.2019 17:30:57	8
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\TagReturnType.ctl	17.03.2019 17:30:53	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Check Special Tags.vi	17.03.2019 17:30:58	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Set String Value.vi	17.03.2019 17:30:54	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	17.03.2019 17:30:54	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Error Code Database.vi	17.03.2019 17:30:59	36
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\whitespace.ctl	17.03.2019 17:30:57	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Trim Whitespace.vi	17.03.2019 17:30:59	33
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Parse Key Value Pair.vi	17.03.2019 10:52:58	27
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\String to Config.vi	17.03.2019 10:52:58	237
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Parse Config to Queue.vi	17.03.2019 10:52:58	25
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Load.vi	17.03.2019 10:52:58	144
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Open Config Data.vi	17.03.2019 10:52:58	65
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get Key.vi	17.03.2019 10:52:58	110
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Read Key (String).vi	17.03.2019 10:52:58	92
+P:\Code\labview\github\TransientAbsorption_DAQ\src\subVIs\load_hardware_ini.vi	23.08.2021 12:01:11	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	17.03.2019 18:01:10	37
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Find Tag.vi	17.03.2019 17:30:54	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Set Bold Text.vi	17.03.2019 17:30:53	20
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Format Message String.vi	17.03.2019 17:30:54	197
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	17.03.2019 17:30:58	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\miscctls.llb\LVRectTypeDef.ctl	17.03.2019 17:30:54	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	17.03.2019 17:30:54	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\picture.llb\Get Text Rect.vi	17.03.2019 18:12:13	38
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	17.03.2019 17:30:58	29
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	17.03.2019 17:30:54	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Get String Text Bounds.vi	17.03.2019 17:30:58	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	17.03.2019 17:30:59	589
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Three Button Dialog.vi	17.03.2019 18:01:10	24
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\GetHelpDir.vi	17.03.2019 17:30:53	4
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\BuildHelpPath.vi	17.03.2019 17:30:54	5
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Not Found Dialog.vi	17.03.2019 17:30:58	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\express\express input\FileDialogBlock.llb\subFile Dialog.vi	17.03.2019 17:54:03	16
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Open File+.vi	17.03.2019 17:54:19	21
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\_oldvers\_oldvers.llb\compatReadText.vi	17.03.2019 17:54:18	34
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Read File+ (string).vi	17.03.2019 17:54:18	16
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Find First Error.vi	17.03.2019 17:54:03	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Close File+.vi	17.03.2019 17:54:03	16
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Read Lines From File (with error IO).vi	17.03.2019 19:08:21	41
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Read Delimited Spreadsheet (DBL).vi	17.03.2019 18:02:01	59
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\_stageType.ctl	30.08.2021 11:23:39	10
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\camType.ctl	14.09.2021 14:55:19	4
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\LVClass\Get LV Class Default Value.vi	17.03.2019 11:01:34	59
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\_loadStage.vi	08.09.2021 14:14:18	39
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\_loadCamera.vi	22.09.2021 17:05:14	33
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read background.vi	01.09.2021 11:35:24	51
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read resource name.vi	01.09.2021 11:19:50	51
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read status.vi	01.09.2021 11:19:50	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read trig1.vi	01.09.2021 11:19:50	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Read trig2.vi	01.09.2021 11:19:50	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write background.vi	01.09.2021 11:22:04	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write resource name.vi	01.09.2021 11:19:50	47
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write status.vi	01.09.2021 11:19:50	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write trig1.vi	01.09.2021 11:19:50	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\Write trig2.vi	01.09.2021 11:19:50	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\get_single_acq.vi	22.09.2021 13:13:13	10
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\init.vi	01.09.2021 11:19:50	5
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\_cameraBase\stop.vi	01.09.2021 11:19:50	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read last position.vi	26.08.2021 15:33:03	53
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read resource name.vi	26.08.2021 15:33:02	53
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read status.vi	26.08.2021 15:33:03	51
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read stepfile.vi	26.08.2021 15:33:03	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read timesteps.vi	26.08.2021 15:33:03	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write instrument info.vi	26.08.2021 15:33:03	49
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write last position.vi	26.08.2021 15:33:03	49
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write max pos.vi	26.08.2021 15:33:03	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write resource name.vi	26.08.2021 15:33:03	49
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write status.vi	26.08.2021 15:33:03	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write stepfile.vi	26.08.2021 15:33:03	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Write timesteps.vi	26.08.2021 15:33:03	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\_unloadStage.vi	26.08.2021 15:33:03	2
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\get_position.vi	26.08.2021 15:33:03	5
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\home.vi	26.08.2021 15:33:02	4
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\init.vi	26.08.2021 15:33:03	61
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\load_stepfile.vi	26.08.2021 15:33:03	19
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\Read max pos.vi	26.08.2021 15:33:02	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\set_position.vi	26.08.2021 15:33:02	6
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\ErrWarn.ctl	17.03.2019 17:30:53	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\event_ctls.llb\eventvkey.ctl	17.03.2019 17:30:58	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Details Display Dialog.vi	17.03.2019 17:30:57	311
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\traverseref.llb\TRef FinderCallback.vi	17.03.2019 17:53:13	23
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\_delayStageBase\load_panel.vi	08.09.2021 11:36:15	6
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\Button.ctl	06.09.2021 14:02:14	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\checkbox.ctl	30.08.2021 14:00:59	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\enum_input.ctl	30.08.2021 13:52:56	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\enum_output.ctl	30.08.2021 13:42:05	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\filepath_input.ctl	30.08.2021 13:49:55	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\hor_bar_indicator.ctl	27.08.2021 10:23:40	12
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\num_input.ctl	27.08.2021 09:53:00	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\num_output.ctl	27.08.2021 10:00:22	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\string_input.ctl	30.08.2021 13:53:58	1
+P:\Code\labview\github\TransientAbsorption_DAQ\src\UI\string_output.ctl	30.08.2021 13:54:32	1
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	17.03.2019 17:30:58	354
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\General Error Handler.vi	17.03.2019 18:01:04	201
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Simple Error Handler.vi	17.03.2019 18:01:04	44
+C:\Program Files\National Instruments\LabVIEW 2019\resource\ChannelSupport\_ChannelSupport\PipeLogic\Reset.vi	17.03.2019 11:53:40	21
+C:\Users\lars\Documents\LabVIEW Data\2019(64-bit)\ExtraVILib\ChannelInstances\Stream-c(t'data_command.ctl',a[.](dbl),a[.,.,.](dbl),dbl,dbl,a[.,.](dbl),i32,bool,a[.](bool),a[.](bool),i32)\ShowData.vi	22.09.2021 13:02:31	21
+P:\Code\labview\github\TransientAbsorption_DAQ\src\main.vi	23.09.2021 08:30:38	814
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\home.vi	26.08.2021 15:33:02	6
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\subVIs\init_parameters.vi	27.08.2021 15:37:35	8
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\init.vi	26.08.2021 15:33:03	69
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\imaginary_stage\set_position.vi	26.08.2021 15:33:03	13
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\Read TCPIP address.vi	26.08.2021 15:33:03	50
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\Write TCPIP address.vi	26.08.2021 15:33:03	46
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\_unloadStage.vi	26.08.2021 15:33:03	5
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\get_position.vi	26.08.2021 15:33:03	13
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\subVIs\init_parameters.vi	27.08.2021 11:41:21	8
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\init.vi	27.08.2021 11:41:58	80
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP301_via_TCPIP\set_position.vi	26.08.2021 15:33:02	15
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\subVIs\dummyTrigger.vi	30.08.2021 15:48:46	10
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\subVIs\init_parameters.vi	27.08.2021 15:37:38	6
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\init.vi	01.09.2021 16:13:58	22
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\stop.vi	26.08.2021 15:33:03	3
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\Write background.vi	01.09.2021 15:15:35	52
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\dummyCam\get_single_acq.vi	22.09.2021 13:57:57	122
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\get_single_acq.vi	23.09.2021 08:31:15	31
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\set_parameters.vi	23.09.2021 08:31:15	19
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\init.vi	23.09.2021 08:14:55	18
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\stop.vi	23.09.2021 08:31:15	7
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Glaz\Write background.vi	14.09.2021 15:28:01	52
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\aboutS0.vi	26.08.2021 17:40:20	34
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\BothSlopes_thread.vi	26.08.2021 17:40:20	31
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\CalcTrms.vi	26.08.2021 17:40:20	34
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\contFFLoop.vi	26.08.2021 17:40:20	26
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\FreeMemInfo.vi	26.08.2021 17:40:20	39
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\IsFFT.vi	26.08.2021 17:40:20	27
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\IsPDA.vi	26.08.2021 17:40:20	39
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\LowSlope_thread.vi	26.08.2021 17:40:20	28
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\Set section voltage.vi	26.08.2021 17:40:21	8
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\SetupDMA_thread.vi	26.08.2021 17:40:20	246
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\FFStop.vi	26.08.2021 17:40:20	26
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\Exit.vi	26.08.2021 17:40:20	30
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\InitDrv_thread.vi	26.08.2021 17:58:23	57
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\InitBrd_multicam.vi	26.08.2021 17:46:25	91
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\HiSlope_thread.vi	26.08.2021 17:40:20	30
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\SetTOREG_thread.vi	26.08.2021 17:40:20	39
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\SendFLCam.vi	26.08.2021 17:40:20	46
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Block v2.vi	26.08.2021 17:40:21	10
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Block.vi	26.08.2021 17:40:20	8
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Frame v2.vi	26.08.2021 17:40:20	5
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Read Frame.vi	26.08.2021 17:40:20	4
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\board.vis\ReadFFLoop_thread.vi	26.08.2021 17:40:21	212
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\get.vi	22.09.2021 13:00:40	8
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\get_single_acq.vi	22.09.2021 13:36:36	27
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Set Globals.vi	01.09.2021 15:43:06	6
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\InitCam.vi	01.09.2021 10:30:00	10
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Allocate memory.vi	26.08.2021 17:40:20	3
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\init.vi	01.09.2021 16:15:19	21
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\CamExit.vi	26.08.2021 17:40:20	3
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\stop.vi	26.08.2021 17:46:43	7
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\Write background.vi	01.09.2021 11:18:44	48
+C:\Program Files\National Instruments\LabVIEW 2019\instr.lib\StresingDualCam\VIs\Start measurement.vi	26.08.2021 17:40:20	4
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\cameras\Stresing_dual_cam\expose.vi	26.08.2021 17:43:11	4
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP300\subVIs\init_parameters.vi	27.08.2021 11:38:35	6
+P:\Code\labview\github\TransientAbsorption_DAQ\src\classes\stages\ESP300\init.vi	26.08.2021 15:33:03	62
+
+[ERROR]
+Code:7
+Error copying files.
+Source: P:\Code\labview\github\TransientAbsorption_DAQ\TA_DAQ.aliases
+Destination: P:\tNIAB\TA_DAQ.aliases
+
+Copy in AB_Application.lvclass:Create_Alias_File.vi->AB_Application.lvclass:Copy_Files.vi->AB_EXE.lvclass:Copy_Files.vi->AB_Build.lvclass:Build.vi->AB_Application.lvclass:Build.vi->AB_EXE.lvclass:Build.vi->AB_Build.lvclass:Build_from_Wizard.vi->AB_UI_Frmwk_Build.lvclass:Build.vi->AB_UI_FRAMEWORK.vi->AB_Item_OnDoProperties.vi->AB_Item_OnDoProperties.vi.ProxyCaller<APPEND>
+P:\Code\labview\github\TransientAbsorption_DAQ\TA_DAQ.aliases
+<Call Chain>Error 7 occurred at AB_Application.lvclass:Create_Alias_File.vi -> AB_Application.lvclass:Copy_Files.vi -> AB_EXE.lvclass:Copy_Files.vi -> AB_Build.lvclass:Build.vi -> AB_Application.lvclass:Build.vi -> AB_EXE.lvclass:Build.vi -> AB_Build.lvclass:Build_from_Wizard.vi -> AB_UI_Frmwk_Build.lvclass:Build.vi -> AB_UI_FRAMEWORK.vi -> AB_Item_OnDoProperties.vi -> AB_Item_OnDoProperties.vi.ProxyCaller
+
+Possible reason(s):
+
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+
+[Output Files]
+
+
+[Errors]
+Click the link below to visit the Application Builder support page. Use the following information as a reference:
+
+Error 7 occurred at AB_Application.lvclass:Create_Alias_File.vi -> AB_Application.lvclass:Copy_Files.vi -> AB_EXE.lvclass:Copy_Files.vi -> AB_Build.lvclass:Build.vi -> AB_Application.lvclass:Build.vi -> AB_EXE.lvclass:Build.vi -> AB_Build.lvclass:Build_from_Wizard.vi -> AB_UI_Frmwk_Build.lvclass:Build.vi -> AB_UI_FRAMEWORK.vi -> AB_Item_OnDoProperties.vi -> AB_Item_OnDoProperties.vi.ProxyCaller
+
+Possible reason(s):
+
+LabVIEW: (Hex 0x7) File not found. The file might be in a different location or deleted. Use the command prompt or the file explorer to verify that the path is correct.
+26.09.2021 00:39:46
