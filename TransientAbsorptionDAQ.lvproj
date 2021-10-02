@@ -110,7 +110,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8985453E-1D85-4C69-B694-A3BA9E3F2250}</Property>
-				<Property Name="Bld_version.build" Type="Int">166</Property>
+				<Property Name="Bld_version.build" Type="Int">167</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TransientAbsorptionDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -121,7 +121,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FBB821BA-0C94-456D-A21E-58CEF952E270}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1692A4E4-AB0E-4723-994C-1AC7FA1B6AAA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
