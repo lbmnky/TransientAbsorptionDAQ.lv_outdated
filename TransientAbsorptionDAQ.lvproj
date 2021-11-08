@@ -14,6 +14,14 @@
 			<Item Name="variant2data.vi" Type="VI" URL="../auxiliary/variant2data.vi"/>
 			<Item Name="variant2data_b.vi" Type="VI" URL="../auxiliary/variant2data_b.vi"/>
 		</Item>
+		<Item Name="channel" Type="Folder">
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Messenger-c(a[.,.,.](dbl),a[.](dbl),a[.,.](bool),t&apos;data_process.ctl&apos;,a[.](dbl),a[.](dbl),a[.](dbl),a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-c(a[.,.,.](dbl),a[.](dbl),a[.,.](bool),t&apos;data_process.ctl&apos;,a[.](dbl),a[.](dbl),a[.](dbl),a[.](dbl)).lvlib"/>
+			<Item Name="Messenger.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Messenger/Messenger.lvlib"/>
+			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
+		</Item>
 		<Item Name="hardware" Type="Folder">
 			<Item Name="_camera.lvlibp" Type="LVLibp" URL="../_camera/_camera.lvlibp">
 				<Item Name="_camera.lvclass" Type="LVClass" URL="../_camera/_camera.lvlibp/_cameraClass/_camera.lvclass"/>
@@ -34,7 +42,6 @@
 			<Item Name="view_full_data.vi" Type="VI" URL="../processing/view_full_data.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="Messenger-c(a[.,.,.](dbl),a[.](dbl),a[.,.](bool),t&apos;data_process.ctl&apos;,a[.](dbl),a[.](dbl),a[.](dbl),a[.](dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Messenger-c(a[.,.,.](dbl),a[.](dbl),a[.,.](bool),t&apos;data_process.ctl&apos;,a[.](dbl),a[.](dbl),a[.](dbl),a[.](dbl)).lvlib"/>
 		<Item Name="splash.vi" Type="VI" URL="../splash.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -103,12 +110,7 @@
 				<Item Name="Waveform Min Max.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Min Max.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Messenger.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Messenger/Messenger.lvlib"/>
-			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
@@ -208,7 +210,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8985453E-1D85-4C69-B694-A3BA9E3F2250}</Property>
-				<Property Name="Bld_version.build" Type="Int">239</Property>
+				<Property Name="Bld_version.build" Type="Int">240</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TransientAbsorptionDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -242,11 +244,16 @@
 				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Messenger-c(a[.,.,.](dbl),a[.](dbl),a[.,.](bool),t'data_process.ctl',a[.](dbl),a[.](dbl),a[.](dbl),a[.](dbl)).lvlib</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/channel/Messenger-c(a[.,.,.](dbl),a[.](dbl),a[.,.](bool),t'data_process.ctl',a[.](dbl),a[.](dbl),a[.](dbl),a[.](dbl)).lvlib</Property>
 				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/channel</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">Technische Universität München</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">TransientAbsorptionDAQ</Property>
 				<Property Name="TgtF_internalName" Type="Str">TransientAbsorptionDAQ</Property>
