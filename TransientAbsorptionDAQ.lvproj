@@ -34,6 +34,7 @@
 			<Item Name="view_full_data.vi" Type="VI" URL="../processing/view_full_data.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="num2lett.vi" Type="VI" URL="../num2lett.vi"/>
 		<Item Name="saving.vi" Type="VI" URL="../saving.vi"/>
 		<Item Name="splash.vi" Type="VI" URL="../splash.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -157,7 +158,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{FFF02082-2121-4F95-946B-FBDAE1837D78}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">TransientAbsorptionDAQ</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Technische Universität München</Property>
@@ -199,7 +200,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8985453E-1D85-4C69-B694-A3BA9E3F2250}</Property>
-				<Property Name="Bld_version.build" Type="Int">327</Property>
+				<Property Name="Bld_version.build" Type="Int">371</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TransientAbsorptionDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
