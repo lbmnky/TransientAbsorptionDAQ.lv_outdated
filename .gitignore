@@ -27,3 +27,8 @@
 
 # Snippets
 snippets/all
+
+# hardware init files
+dummy.ini
+spectral_calibration.ini
+glaz.ini
