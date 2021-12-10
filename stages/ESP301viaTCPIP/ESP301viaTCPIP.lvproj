@@ -27,7 +27,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Plugin Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{43C0FB62-0F5A-4B0D-9438-0155AD2B7482}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ESP301viaTCPIP.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/github/TransientAbsorptionDAQ.lv/builds/stages/NI_AB_PROJECTNAME/ESP301viaTCPIP.lvlibp</Property>
