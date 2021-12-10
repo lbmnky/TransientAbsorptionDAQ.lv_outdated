@@ -25,6 +25,9 @@
 			</Item>
 			<Item Name="state.ctl" Type="VI" URL="../state.ctl"/>
 		</Item>
+		<Item Name="initialisation" Type="Folder">
+			<Item Name="spectral_calibration.ini" Type="Document" URL="../builds/cameras/spectral_calibration.ini"/>
+		</Item>
 		<Item Name="processing" Type="Folder">
 			<Item Name="_dataProcessing.lvlibp" Type="LVLibp" URL="../_dataProcessing/_dataProcessing.lvlibp">
 				<Item Name="_dataProcessing.lvclass" Type="LVClass" URL="../_dataProcessing/_dataProcessing.lvlibp/_dataProcessingClass/_dataProcessing.lvclass"/>
@@ -36,7 +39,6 @@
 			<Item Name="view_full_data.vi" Type="VI" URL="../processing/view_full_data.vi"/>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="spectral_calibration.ini" Type="Document" URL="../builds/cameras/spectral_calibration.ini"/>
 		<Item Name="splash.vi" Type="VI" URL="../splash.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
