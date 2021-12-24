@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">419463168</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="subVIs" Type="Folder">
+		<Item Name="fs_mm_converter.vi" Type="VI" URL="../smc100Class/subVIs/fs_mm_converter.vi"/>
+	</Item>
 	<Item Name="smc100.lvclass" Type="LVClass" URL="../smc100Class/smc100.lvclass"/>
 </Library>

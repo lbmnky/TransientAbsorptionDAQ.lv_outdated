@@ -16,7 +16,23 @@
 		</Item>
 		<Item Name="smc100.lvlib" Type="Library" URL="../smc100.lvlib"/>
 		<Item Name="Plugin Post-Build Action.vi" Type="VI" URL="../../Plugin Post-Build Action.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="read_write.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100_Communication.llb/read_write.vi"/>
+				<Item Name="enter / leave disable state.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/enter / leave disable state.vi"/>
+				<Item Name="home.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/home.vi"/>
+				<Item Name="set home type.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/set home type.vi"/>
+				<Item Name="enter / leave configuration state.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/enter / leave configuration state.vi"/>
+				<Item Name="tell controller status.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/tell controller status.vi"/>
+				<Item Name="port init.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100_Communication.llb/port init.vi"/>
+				<Item Name="close.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100_Communication.llb/close.vi"/>
+				<Item Name="tell current position.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/tell current position.vi"/>
+				<Item Name="Move absolute.vi" Type="VI" URL="/&lt;userlib&gt;/SMC100 Controller_Drivers/SMC100.llb/Move absolute.vi"/>
+			</Item>
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Open Sessions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/visa.llb/Open Sessions.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="smc100" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -28,7 +44,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Plugin Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E005C4EB-1781-4241-BC9D-DD9604F63FF9}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">smc100.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/github/TransientAbsorptionDAQ.lv/builds/stages/NI_AB_PROJECTNAME/smc100.lvlibp</Property>
