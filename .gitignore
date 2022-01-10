@@ -32,6 +32,8 @@ snippets/all
 dummy.ini
 spectral_calibration.ini
 glaz.ini
+*.ini
+builds\config.ini
 
 # MWEs
 MWEs/
