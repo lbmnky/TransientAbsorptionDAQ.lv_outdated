@@ -46,7 +46,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Plugin Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4EA6D5C1-8829-4585-83AC-325ED63C790C}</Property>
-				<Property Name="Bld_version.build" Type="Int">71</Property>
+				<Property Name="Bld_version.build" Type="Int">78</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dummy.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/github/TransientAbsorptionDAQ.lv/builds/cameras/NI_AB_PROJECTNAME/dummy.lvlibp</Property>
