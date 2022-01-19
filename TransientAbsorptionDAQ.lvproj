@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="auxiliary" Type="Folder">
+			<Item Name="create_save_dir_and_fn.vi" Type="VI" URL="../auxiliary/create_save_dir_and_fn.vi"/>
 			<Item Name="num2lett.vi" Type="VI" URL="../num2lett.vi"/>
 			<Item Name="save_wl_to_config.vi" Type="VI" URL="../auxiliary/save_wl_to_config.vi"/>
 			<Item Name="saving.vi" Type="VI" URL="../saving.vi"/>
@@ -210,7 +211,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8985453E-1D85-4C69-B694-A3BA9E3F2250}</Property>
-				<Property Name="Bld_version.build" Type="Int">621</Property>
+				<Property Name="Bld_version.build" Type="Int">657</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TransientAbsorptionDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
