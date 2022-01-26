@@ -37,3 +37,6 @@ builds\config.ini
 
 # MWEs
 MWEs/
+
+# Installers
+builds/installer
