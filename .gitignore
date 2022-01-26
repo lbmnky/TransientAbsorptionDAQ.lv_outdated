@@ -40,3 +40,4 @@ MWEs/
 
 # Installers
 builds/installer
+builds/runtime
