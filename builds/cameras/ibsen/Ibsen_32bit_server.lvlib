@@ -4,16 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Ibsen_32bit-server.vi" Type="VI" URL="../Ibsen_32bit_server.exe/Ibsen_32bit-server.vi"/>
 	<Item Name="spectrum" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Industrial:IsNetworkPublished" Type="Str">True</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!""01!!!"A!A!!!!!!#!!V!!A!(4H6N:8*J9Q!=1%!!!@````]!!!Z"=H*B?3"P:C"*&lt;H1R.A!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
