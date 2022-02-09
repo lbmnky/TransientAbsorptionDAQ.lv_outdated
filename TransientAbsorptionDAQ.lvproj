@@ -31,6 +31,9 @@
 			<Item Name="spectral_calibration.ini" Type="Document" URL="../builds/cameras/spectral_calibration.ini"/>
 		</Item>
 		<Item Name="processing" Type="Folder">
+			<Item Name="_data.lvlibp" Type="LVLibp" URL="../_data/_data.lvlibp">
+				<Item Name="_data.lvclass" Type="LVClass" URL="../_data/_data.lvlibp/_dataClass/_data.lvclass"/>
+			</Item>
 			<Item Name="_dataProcessing.lvlibp" Type="LVLibp" URL="../_dataProcessing/_dataProcessing.lvlibp">
 				<Item Name="_dataProcessing.lvclass" Type="LVClass" URL="../_dataProcessing/_dataProcessing.lvlibp/_dataProcessingClass/_dataProcessing.lvclass"/>
 			</Item>
@@ -70,6 +73,7 @@
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -211,7 +215,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8985453E-1D85-4C69-B694-A3BA9E3F2250}</Property>
-				<Property Name="Bld_version.build" Type="Int">657</Property>
+				<Property Name="Bld_version.build" Type="Int">672</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TransientAbsorptionDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
@@ -222,7 +226,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F2A2976F-AD4C-4518-83AA-DFD8DEB3E086}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3E32C5CE-2809-4808-95F8-5CD26C502953}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
