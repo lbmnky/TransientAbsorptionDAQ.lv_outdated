@@ -10,6 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="auxiliary" Type="Folder">
+			<Item Name="check_signal_chopper_state.vi" Type="VI" URL="../auxiliary/check_signal_chopper_state.vi"/>
+			<Item Name="ta_calc_diff.vi" Type="VI" URL="../auxiliary/ta_calc_diff.vi"/>
+		</Item>
 		<Item Name="_data.lvlibp" Type="LVLibp" URL="../../../_data/_data.lvlibp">
 			<Item Name="_data.lvclass" Type="LVClass" URL="../../../_data/_data.lvlibp/_dataClass/_data.lvclass"/>
 		</Item>
@@ -19,6 +23,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="dataTA" Type="Packed Library">
@@ -31,7 +36,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Plugin Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{80AB0AF6-B004-4085-A248-38754CE8DDE4}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dataTA.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/github/TransientAbsorptionDAQ.lv/builds/data/NI_AB_PROJECTNAME/dataTA.lvlibp</Property>
