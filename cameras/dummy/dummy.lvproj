@@ -34,6 +34,9 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="_data.lvlibp" Type="LVLibp" URL="../../../_data/_data.lvlibp">
+				<Item Name="_data.lvclass" Type="LVClass" URL="../../../_data/_data.lvlibp/_dataClass/_data.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="dummy" Type="Packed Library">
@@ -46,7 +49,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Plugin Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4EA6D5C1-8829-4585-83AC-325ED63C790C}</Property>
-				<Property Name="Bld_version.build" Type="Int">116</Property>
+				<Property Name="Bld_version.build" Type="Int">122</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dummy.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/github/TransientAbsorptionDAQ.lv/builds/cameras/NI_AB_PROJECTNAME/dummy.lvlibp</Property>
@@ -58,7 +61,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2E8F64F7-754B-4B85-B97D-BC61B7443494}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A7C5D048-8B8C-47C5-B57B-07312B5B7127}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dummy.lvlib</Property>
