@@ -37,6 +37,7 @@
 			<Item Name="check_signal_chopper_state.vi" Type="VI" URL="../processing/check_signal_chopper_state.vi"/>
 			<Item Name="data_process.ctl" Type="VI" URL="../data_process.ctl"/>
 			<Item Name="error_anal.vi" Type="VI" URL="../processing/error_anal.vi"/>
+			<Item Name="FROG.vi" Type="VI" URL="../processing/FROG.vi"/>
 			<Item Name="ta_calc_diff.vi" Type="VI" URL="../processing/ta_calc_diff.vi"/>
 			<Item Name="view_full_data.vi" Type="VI" URL="../processing/view_full_data.vi"/>
 		</Item>
@@ -213,7 +214,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8985453E-1D85-4C69-B694-A3BA9E3F2250}</Property>
-				<Property Name="Bld_version.build" Type="Int">783</Property>
+				<Property Name="Bld_version.build" Type="Int">802</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TransientAbsorptionDAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
